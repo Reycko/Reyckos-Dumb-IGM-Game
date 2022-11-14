@@ -81,7 +81,7 @@ Items
 	name:Double pie
 	desc:Grants a bonus of making a bonus pie.
 	passive:grant 1 pie
-	
+
 Shinies
 	*goldenPie
 		name:Golden pie
