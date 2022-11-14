@@ -1,0 +1,53 @@
+Let's make a game!
+	name:Reycko's random test IGM game
+	author:Reycko
+	version:0.0.1
+ 
+Settings
+	building cost increase:115%
+ 
+CSS
+	#game
+	{
+		background:cornflowerblue;
+		font-family:"Times New Roman",Times,serif;
+		color:black;
+	}
+	.thing
+	{
+		border-radius:8px;
+		background:rgba(255,255,255,0.5);
+		text-shadow:1px 1px 0 black;
+	}
+	#game.filtersOn .thing.cantAfford.notOwned
+	{
+		filter:blur(3px);
+	}
+
+Layout
+	use default
+	*achievs
+		in:main
+		contains:Achievements
+ 
+ 
+Resources
+	*pie|pies
+		name:Pies
+		desc:A delicious pie.
+ 
+Buttons
+	*pieButton
+		name:[PIE BUTTON PLACEHOLDER]
+ 
+ 
+Upgrades
+  *applePieRecipe
+    name:Apple pie recipe
+    desc:Unlocks the ability to make apple pies!
+	cost:50 pies
+ 
+  *cherryPieRecipe
+    name:Cherry pie recipe
+    desc:Boy, you'll never guess!
+	cost:150 pies
