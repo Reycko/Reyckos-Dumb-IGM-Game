@@ -17,11 +17,14 @@ CSS
 	{
 		border-radius:8px;
 		background:rgba(255,255,255,0.5);
-		text-shadow:1px 1px 0 black;
 	}
 	#game.filtersOn .thing.cantAfford.notOwned
 	{
 		filter:blur(3px);
+	}
+	#game.filtersOn .thing
+	{
+		text-shadow:1px 1px 0 black;
 	}
 
 Layout
