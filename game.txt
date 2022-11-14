@@ -29,6 +29,9 @@ CSS
 
 Layout
 	use default
+	*buttons
+		in:main
+		contains:Buttons
 	*achievs
 		in:main
 		contains:Achievements
@@ -47,9 +50,9 @@ Buttons
 Buildings
 	*pieFactory
 		name:Pie factory
-		desc:
-		on tick: yield 1 pie
-		cost: 100 pies
+		desc:Make some delicious pies!
+		on tick:yield 1 pie
+		cost:100 pies
  
  
 Upgrades
@@ -70,7 +73,7 @@ Upgrades
 Achievements
 	*10pies
 		name:Getting Started
-		desc:You bakes 10 delicious pies. Good job.
+		desc:You baked 10 delicious pies. Good job.
 		req:10 pies:clicks
 
 Items
@@ -78,6 +81,7 @@ Items
 	name:Double pie
 	desc:Grants a bonus of making a bonus pie.
 	passive:grant 1 pie
+	
 Shinies
 	*goldenPie
 		name:Golden pie
