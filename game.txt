@@ -24,7 +24,7 @@ CSS
 	}
 	#game.filtersOn .thing
 	{
-		text-shadow:1px 1px 0 black;
+		text-shadow:0.5px 0.5px 0 black;
 	}
 
 Layout
@@ -41,7 +41,7 @@ Resources
  
 Buttons
 	*pieButton
-		name:<#ff00ff><b>[PIE BUTTON PLACEHOLDER]<b></#>
+		name:[PIE BUTTON PLACEHOLDER]
 		on click:yield 1 pie
 
 Buildings
