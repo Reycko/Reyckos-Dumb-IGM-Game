@@ -29,9 +29,6 @@ CSS
 
 Layout
 	use default
-	*buttons
-		in:main
-		contains:Buttons
 	*achievs
 		in:main
 		contains:Achievements
