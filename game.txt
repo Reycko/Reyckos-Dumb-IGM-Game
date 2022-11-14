@@ -86,6 +86,7 @@ Shinies
 		frequency:20
 		frequency variation:20
 		duration:15
+		wiggle
 		wiggle:2
 		pulse:3
 		randomAngle
