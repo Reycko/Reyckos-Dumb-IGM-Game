@@ -87,8 +87,7 @@ Shinies
 		frequency variation:20
 		duration:15
 		wiggle
-		wiggle:2
-		pulse:3
+		pulse
 		randomAngle
 		shrink
 		bobVertical
