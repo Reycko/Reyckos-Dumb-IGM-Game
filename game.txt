@@ -82,7 +82,7 @@ Shinies
 	*goldenPie
 		name:Golden pie
 		on click:yield (random(pies+10,pies*5)) pies
-		movement:anywhere fade bounce moveRandom
+		movement:anywhere fade bounce moveRandom wiggle pulse randomAngle shrink bobVertical
 		frequency:20
 		frequency variation:20
 		duration:15
