@@ -42,6 +42,14 @@ Resources
 Buttons
 	*pieButton
 		name:[PIE BUTTON PLACEHOLDER]
+		on click:yield 1 pie
+
+Buildings
+	*pieFactory
+		name:Pie factory
+		desc:
+		on tick: yield 1 pie
+		cost: 100 pies
  
  
 Upgrades
@@ -49,8 +57,37 @@ Upgrades
     name:Apple pie recipe
     desc:Unlocks the ability to make apple pies!
 	cost:50 pies
+	passive:multiply yield of pies by 2
  
   *cherryPieRecipe
     name:Cherry pie recipe
     desc:Boy, you'll never guess!
 	cost:150 pies
+	passive:multiply yield of pies by 4
+	req:have applePieRecipe
+
+
+Achievements
+	*10pies
+		name:Getting Started
+		desc:You bakes 10 delicious pies. Good job.
+		req:10 pies:clicks
+
+Items
+	*doublePie
+	name:Double pie
+	desc:Grants a bonus of making a bonus pie.
+	passive:grant 1 pie
+Shinies
+	*goldenPie
+		name:Golden pie
+		on click:yield (random(pies+10,pies*5)) pies
+		movement:anywhere fade bounce moveRandom
+		frequency:20
+		frequency variation:20
+		duration:15
+		wiggle:2
+		pulse:3
+		randomAngle
+		shrink
+		bobVertical
