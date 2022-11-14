@@ -41,7 +41,7 @@ Resources
  
 Buttons
 	*pieButton
-		name:[PIE BUTTON PLACEHOLDER]
+		name:<#ff00ff><b>[PIE BUTTON PLACEHOLDER]<b></#>
 		on click:yield 1 pie
 
 Buildings
